@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1726786125791,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1726787661060
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -52,10 +57,15 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.6541005291005291,
-            "y": 0.315028901734104,
+            "x": 0.5879629629629629,
+            "y": 0.3468208092485549,
             "uniqueID": 1726787306195,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1726787390635
+                }
+            ],
             "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
             "BOMitem": {
                 "BOMitemName": "Fire Pit Ring",
@@ -117,8 +127,8 @@
         {
             "atomType": "Join",
             "name": "Fusion",
-            "x": 0.46164021164021163,
-            "y": 0.38150289017341044,
+            "x": 0.4629629629629629,
+            "y": 0.37861271676300573,
             "uniqueID": 1726787390635,
             "ioValues": [
                 {
@@ -160,7 +170,7 @@
             "ioValues": [
                 {
                     "name": "geometry2",
-                    "ioValue": 1726787335780
+                    "ioValue": 1726787084102
                 },
                 {
                     "name": "geometry1",
@@ -208,10 +218,25 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 40
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.7116402116402116,
+            "y": 0.43352601156069365,
+            "uniqueID": 1726787661060,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1726787306195
+                }
+            ],
+            "description": "Changes the color of the shape.",
+            "selectedColorIndex": 18
         }
     ],
     "allConnectors": [
@@ -231,6 +256,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1726787084102,
+            "ap2ID": 1726787599916
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "Shape 2",
             "ap2Primary": false,
             "ap1ID": 1726787117985,
@@ -238,17 +270,17 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1726787306195,
+            "ap2ID": 1726787661060
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 1726787335780,
             "ap2ID": 1726787356222
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": 1726787335780,
-            "ap2ID": 1726787599916
         },
         {
             "ap1Name": "geometry",
@@ -263,6 +295,13 @@
             "ap2Primary": false,
             "ap1ID": 1726787364639,
             "ap2ID": 1726787390635
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1726787390635,
+            "ap2ID": 1726787306195
         },
         {
             "ap1Name": "geometry",
@@ -291,10 +330,24 @@
             "ap2Primary": false,
             "ap1ID": 1726787620010,
             "ap2ID": 1726787390635
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1726787661060,
+            "ap2ID": 1726786125791
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "Fire Pit Ring",
+            "numberNeeded": 1,
+            "costUSD": 206,
+            "source": "https://amzn.to/3XAoGSm"
+        }
+    ],
     "filetypeVersion": 1
 }
