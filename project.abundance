@@ -77,8 +77,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.0582010582010582,
-            "y": 0.4710982658959537,
+            "x": 0.057539682539682536,
+            "y": 0.47075208913649025,
             "uniqueID": 1726787335780,
             "ioValues": [
                 {
@@ -150,8 +150,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.08333333333333333,
-            "y": 0.8901734104046243,
+            "x": 0.08928571428571429,
+            "y": 0.8857938718662952,
             "uniqueID": 1726787562607,
             "ioValues": [
                 {
@@ -164,8 +164,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.19444444444444442,
-            "y": 0.7947976878612716,
+            "x": 0.18783068783068782,
+            "y": 0.777158774373259,
             "uniqueID": 1726787599916,
             "ioValues": [
                 {
@@ -237,6 +237,58 @@
             ],
             "description": "Changes the color of the shape.",
             "selectedColorIndex": 18
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Add Keep Out",
+            "x": 0.583994708994709,
+            "y": 0.7715877437325905,
+            "uniqueID": 1727736633229,
+            "ioValues": [
+                {
+                    "name": "name1",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1727736633016,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "name1",
+                    "x": 0.04,
+                    "y": 0.4735376044568245,
+                    "uniqueID": 1727736722794,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.16137566137566137,
+                    "y": 0.7214484679665739,
+                    "uniqueID": 1727736737837,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 631
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
