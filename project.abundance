@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1727736633229
+                    "ioValue": 1727738511772
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -182,8 +182,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.31547619047619047,
-            "y": 0.8092485549132947,
+            "x": 0.31813953488372093,
+            "y": 0.8133704735376045,
             "uniqueID": 1726787608436,
             "ioValues": [
                 {
@@ -428,6 +428,32 @@
                     "source": "https://amzn.to/3XAoGSm"
                 }
             ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.84,
+            "y": 0.7437325905292479,
+            "uniqueID": 1727738511772,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1727736633229
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": -40
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -531,21 +557,21 @@
         },
         {
             "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1727736633229,
+            "ap2ID": 1727738511772
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 1727736633229,
+            "ap1ID": 1727738511772,
             "ap2ID": 1726786125791
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [
-        {
-            "BOMitemName": "Fire Pit Ring",
-            "numberNeeded": 1,
-            "costUSD": 206,
-            "source": "https://amzn.to/3XAoGSm"
-        }
-    ],
+    "compiledBom": [],
     "filetypeVersion": 1
 }
