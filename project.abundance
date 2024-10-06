@@ -57,8 +57,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.5879629629629629,
-            "y": 0.3468208092485549,
+            "x": 0.5904203323558163,
+            "y": 0.34146341463414637,
             "uniqueID": 1726787306195,
             "ioValues": [
                 {
@@ -150,8 +150,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.09457671957671958,
-            "y": 0.8774373259052926,
+            "x": 0.09481915933528837,
+            "y": 0.8780487804878049,
             "uniqueID": 1726787562607,
             "ioValues": [
                 {
@@ -241,8 +241,8 @@
         {
             "atomType": "Molecule",
             "name": "Add Keep Out",
-            "x": 0.8234126984126985,
-            "y": 0.479108635097493,
+            "x": 0.8191593352883675,
+            "y": 0.34146341463414637,
             "uniqueID": 1727736633229,
             "ioValues": [
                 {
@@ -572,6 +572,13 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "Fire Pit Ring",
+            "numberNeeded": 1,
+            "costUSD": 206,
+            "source": "https://amzn.to/3XAoGSm"
+        }
+    ],
     "filetypeVersion": 1
 }

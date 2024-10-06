@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|Fire Pit Ring|1|$206.00|https://amzn.to/3XAoGSm|
+|Total: |1|$206.00| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $618.00
